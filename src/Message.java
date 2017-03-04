@@ -1,3 +1,5 @@
+import java.util.Random;
+
 /*
  * Created by forestnewark on 3/3/17.
  */
@@ -7,9 +9,14 @@ public class Message {
      String dMessage;
     int shiftNumber;
 
+    //Generate cipherKey
+    public int generateKey() {
+        Random rand = new Random();
+        return rand.nextInt(20) + 1;
+    }
+
     //Encode Method
     public String encodeMessage() {
-
 
         //Turn String into Char Array
         char[] toEncodeCharArray = messageToEncrypt.toCharArray();
