@@ -5,14 +5,14 @@ import java.util.Random;
  */
 public class Message {
     String messageToEncrypt;
-     String eMessage;
-     String dMessage;
+    String eMessage;
+    String dMessage;
     int shiftNumber;
 
     //Generate cipherKey
     public int generateKey() {
         Random rand = new Random();
-        return rand.nextInt(20) + 1;
+        return rand.nextInt(10) + 1;
     }
 
     //Encode Method
