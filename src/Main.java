@@ -5,10 +5,14 @@ import java.util.Scanner;
 
 
 /*
- * Created by forestnewark on 3/3/17.
+ * Created by forestnewark on 3/3/17 for an assignment at the Iron Yard.
  *
- * This is a simple Caesar Cipher program. It allows you to enter a message that it will then encode using a
-  * randomly generated cipher key. You can then use
+ * This is a simple Caesar Cipher program. It has both an Encoder and a Decoder Program:
+ *
+  * The Encoder Program allows the user to enter a message and encode it using a randomly generated cipher key.
+  *
+  * The Decoder Program allows the user to enter an encoded message and a cipher key. The program will return
+  * a decoded message.
  */
 public class Main {
 
